@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Table</title>
+    <style>
+        table {
+            width: 100%;
+            max-width: 600px;
+            height: 600px;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+        td {
+            border: 2px solid black;
+            min-height: 50px;
+            width: 100px;
+        }
+        .red { background-color: red; }
+        .blue { background-color: blue; }
+        .yellow { background-color: yellow; }
+        .black { background-color: black; }
+        .white { background-color: white; }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="white" colspan="2" ></td>
+            <td class="white"></td>
+            <td class="yellow" colspan="2"></td>
+            <td class="white" rowspan="4"></td>
+        </tr>
+        <tr>
+            <td class="white"></td>
+            <td class="red" rowspan="2" colspan="2"></td>
+            <td class="yellow" colspan="2"></td>
+        </tr>
+        <tr>
+            <td class="white" rowspan="2"></td>
+            <td class="white"></td>
+            <td class="white"></td>
+        </tr>
+        <tr>
+            <td class="black" rowspan="2"></td>
+            <td class="white"></td>
+            <td class="white" colspan="2"></td>
+        </tr>
+        <tr>
+            <td class="yellow" rowspan="3"></td>
+            <td class="white"></td>
+            <td class="blue" rowspan="2" colspan="2"></td>
+            <td class="red" rowspan="3"></td>
+        </tr>
+        <tr>
+            <td class="white" rowspan="2"></td>
+            <td class="black"></td>
+        </tr>
+        <tr>
+            <td class="white" colspan="3"></td>
+        </tr>
+    </table>
+   
+</body>
+</html>
