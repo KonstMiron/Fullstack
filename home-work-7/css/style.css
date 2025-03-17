@@ -1,0 +1,74 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+h1, h2 {
+    color: #333;
+}
+
+/* Блокові та інлайнові елементи */
+.block {
+    display: block;
+    background: lightblue;
+    padding: 10px;
+    margin: 10px 0;
+}
+.inline {
+    display: inline;
+    background: lightgreen;
+    padding: 5px;
+}
+
+/* Display властивості */
+.display-box {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.block { display: block; }
+.inline { display: inline; }
+.flex { display: flex; justify-content: center; background: lightcoral; }
+
+/* Float та Clear */
+.float-box {
+    width: 100px;
+    height: 50px;
+    background: orange;
+    margin: 10px;
+}
+.left { float: left; }
+.right { float: right; }
+.clear-box {
+    clear: both;
+    background: lightgray;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Overflow */
+.overflow-box {
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid black;
+    background: lightyellow;
+}
+
+/* Позиціонування */
+.position {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    background: lightpink;
+    border: 1px solid black;
+}
+.static { position: static; }
+.relative { position: relative; left: 20px; }
+.absolute { position: absolute; top: 50px; left: 50px; }
+.fixed { position: fixed; top: 10px; right: 10px; }
+.sticky { position: sticky; top: 20px; }
